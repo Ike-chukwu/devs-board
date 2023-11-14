@@ -1,0 +1,171 @@
+.nav-parent {
+  background: url(../../assets//assets/desktop/bg-pattern-header.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  padding-top: 4rem;
+  padding-bottom: 12rem;
+  border-bottom-left-radius: 11rem;
+  .navmenu-wrapper {
+    position: relative;
+    width: 1400px;
+    margin-inline: auto;
+    .navbar-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 1400px;
+      margin-inline: auto;
+      z-index: 0;
+
+      .logoName {
+        font-size: 3rem;
+        color: white;
+        font-weight: bold;
+      }
+
+      .right {
+        display: flex;
+        gap: 2rem;
+        color: white;
+        align-items: center;
+
+        /* The switch - the box around the slider */
+        .switch {
+          position: relative;
+          display: inline-block;
+          width: 46px;
+          height: 22px;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+
+        /* The slider */
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #ccc;
+          -webkit-transition: 0.4s;
+          transition: 0.4s;
+        }
+
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 14px;
+          width: 14px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: 0.4s;
+          transition: 0.4s;
+        }
+
+        input:checked + .slider {
+          background-color: #2196f3;
+        }
+
+        input:focus + .slider {
+          box-shadow: 0 0 1px #2196f3;
+        }
+
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+          border-radius: 34px;
+        }
+
+        .slider.round:before {
+          border-radius: 50%;
+        }
+
+        i {
+          font-size: 1.8rem;
+          cursor: pointer;
+        }
+      }
+    }
+    .overlapping-nav {
+      background: white;
+      height: 80px;
+      position: absolute;
+      right: 0;
+      left: 0;
+      margin-inline: auto;
+      display: flex;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      top: 5rem;
+      z-index: 100;
+      border-radius: 0.5rem;
+      top: 330%;
+      padding-inline: 2rem;
+      align-items: center;
+      .search-input-parent {
+        width: 40%;
+        height: 100%;
+        border-right: 0.1rem solid black;
+        display: flex;
+        align-items: center;
+        .search-input {
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          justify-content: space-between;
+          width: 100%;
+          i {
+            font-size: 1.6rem;
+          }
+
+          input {
+            width: 95%;
+            padding-block: 1rem;
+          }
+        }
+      }
+
+      .filter-parent {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        position: relative;
+        // padding-inline: 1rem;
+        gap: 1.5rem;
+        height: 100%;
+        .inner-filter-content{
+          padding-inline: 1.5rem;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          align-items: center;
+          .filter-placeholder{
+            font-size: 1.4rem;
+            text-transform: capitalize;
+          }
+        }
+        .select-choice {
+          width: 100%;
+          position: absolute;
+          top: 100%;
+        }
+      }
+
+      .job-descp {
+        display: flex;
+      }
+    }
+  }
+}
