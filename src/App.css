@@ -22,3 +22,26 @@ section {
 }
 
 
+
+
+@media(max-width:1500px) {
+  section {
+    width: 1000px;
+  }
+}
+
+
+@media(max-width:1080px) {
+  section {
+    width: 1000px;
+  }
+}
+
+
+@media(max-width:850px) {
+  section {
+    width: 100%;
+    padding-inline: 2rem;
+
+  }
+}

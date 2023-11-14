@@ -3,6 +3,9 @@ import logo from "../../assets/assets/logo.png";
 import "./Navbar.scss";
 
 const Navbar = () => {
+
+
+  
   return (
     <div className="nav-parent">
       <div className="navmenu-wrapper">
@@ -31,8 +34,8 @@ const Navbar = () => {
 
           <div className="filter-parent">
             <div className="inner-filter-content">
-              <i className="fas fa-map-marker"></i>
-              <span className="filter-placeholder">filter by location</span>
+              <i className="fa fa-map-marker"></i>
+              <span className="filter-placeholder">filter by location...</span>
             </div>
             <select name="" id="" className="select-choice">
               <option value="">filter by location</option>
@@ -41,7 +44,7 @@ const Navbar = () => {
 
           <div className="job-descp">
             <div className="left-side-descp">
-              <input type="checkbox" />
+              <input type="checkbox" className="i-checkbox" />
               <p className="category">full time only</p>
             </div>
 
