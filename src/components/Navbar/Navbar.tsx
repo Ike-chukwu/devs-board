@@ -43,12 +43,27 @@ const Navbar = () => {
             </div>
             {isSelectTagActive && (
               <div className="select-choice">
-                <span>filter by location</span>
-                <span>filter by location</span>
-                <span>filter by location</span>
-                <span>filter by location</span>
-                <span>filter by location</span>
-                <span>filter by location</span>
+                <div className="coutry-category">
+                  <span>filter by location</span>
+                </div>
+                <div className="coutry-category">
+                  <span>filter by location</span>
+                </div>
+                <div className="coutry-category">
+                  <span>filter by location</span>
+                </div>
+                <div className="coutry-category">
+                  <span>filter by location</span>
+                </div>
+                <div className="coutry-category">
+                  <span>filter by location</span>
+                </div>
+                <div className="coutry-category">
+                  <span>filter by location</span>
+                </div>
+                <div className="coutry-category">
+                  <span>filter by location</span>
+                </div>
               </div>
             )}
           </div>
@@ -95,12 +110,27 @@ const Navbar = () => {
                   </span>
                   {isMobileSelectTagActive && (
                     <div className="select-choice">
-                      <span>filter by location</span>
-                      <span>filter by location</span>
-                      <span>filter by location</span>
-                      <span>filter by location</span>
-                      <span>filter by location</span>
-                      <span>filter by location</span>
+                      <div className="coutry-category">
+                        <span>filter by location</span>
+                      </div>
+                      <div className="coutry-category">
+                        <span>filter by location</span>
+                      </div>
+                      <div className="coutry-category">
+                        <span>filter by location</span>
+                      </div>
+                      <div className="coutry-category">
+                        <span>filter by location</span>
+                      </div>
+                      <div className="coutry-category">
+                        <span>filter by location</span>
+                      </div>
+                      <div className="coutry-category">
+                        <span>filter by location</span>
+                      </div>
+                      <div className="coutry-category">
+                        <span>filter by location</span>
+                      </div>
                     </div>
                   )}
                 </div>

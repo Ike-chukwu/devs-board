@@ -166,14 +166,13 @@
           }
         }
         .select-choice {
-          padding-block: 0.5rem;
+          // padding-block: 0.5rem;
           position: absolute;
           top: 100%;
           height: fit-content;
           left: 0;
           right: 0;
           outline: none;
-          padding-left: 5.5rem;
           text-transform: capitalize;
           display: flex;
           flex-direction: column;
@@ -183,10 +182,21 @@
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           border: 0.1rem solid black;
           border-top: none;
-          span {
-            font-size: 1.6rem;
-            color: grey;
-            cursor: pointer;
+          .coutry-category {
+            &:hover {
+              background: blue;
+              cursor: pointer;
+
+              span {
+                color: white;
+              }
+            }
+            span {
+              font-size: 1.6rem;
+              color: grey;
+              padding-left: 5.5rem;
+              cursor: pointer;
+            }
           }
           // border: none;
           // display: none;
@@ -269,24 +279,34 @@
               cursor: pointer;
             }
             .select-choice {
-              padding-block: 0.5rem;
+              // padding-block: 0.5rem;
               position: absolute;
               top: 100%;
               height: fit-content;
               left: 0;
               right: 0;
               outline: none;
-              padding-left: 5.5rem;
               text-transform: capitalize;
               display: flex;
               flex-direction: column;
               width: 100%;
               background: white;
               gap: 1rem;
-              span {
-                font-size: 1.6rem;
-                color: grey;
-                cursor: pointer;
+              .coutry-category {
+                &:hover {
+                  background: blue;
+                  cursor: pointer;
+
+                  span {
+                    color: white;
+                  }
+                }
+                span {
+                  font-size: 1.6rem;
+                  color: grey;
+                  padding-left: 5.5rem;
+                  cursor: pointer;
+                }
               }
               // border: none;
               // display: none;
