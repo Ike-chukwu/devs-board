@@ -10,9 +10,13 @@ html {
   /* overflow-x: hidden; */
 }
 
+body {
+  background: #F2F2F2;
+}
 
 html {
   font-size: 62.5%;
+
 }
 
 
@@ -33,7 +37,7 @@ section {
 
 @media(max-width:1080px) {
   section {
-    width: 1000px;
+    width: 800px;
   }
 }
 
